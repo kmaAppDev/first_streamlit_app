@@ -2,8 +2,12 @@ import streamlit
 
 streamlit.title('My parents new healthy diner!  Woot!')
 
-streamlit.title('<b>Can I use html?</b>')
+streamlit.header('header here')
 
-streamlit.title('no processed foods here')
+streamlit.text('text here')
+
+streamlit.text('<b>Can I use html?</b>')
+
+streamlit.text('no processed foods here')
 
 streamlit.title2('Trying to force an error')
