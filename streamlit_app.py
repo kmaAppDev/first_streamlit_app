@@ -58,10 +58,11 @@ if streamlit.button('Get Fruit List'):
     my_data_rows = get_fruit_load_list()
     my_cnx.close()
     streamlit.dataframe(my_data_rows)
+    streamlit.header("The fruit load list contains:")
     
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
-streamlit.header("The fruit load list contains:")
+
 
 
 def get_fruit_load_list():
